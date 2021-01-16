@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.projectname{
+  color:#3fd970;
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-left: 30px;
+  width: 15%;
+  line-height: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 20;
+  margin-top: 30px;
+  margin-left:81%;
+}
+
+.projectnameben{
+  color:#3fd970;
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-left: 30px;
+  width: 20%;
+  line-height: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 20;
+  margin-top: 30px;
+  margin-left:76%;
+}
+
+.button {
+  /* border: 2px solid blue; */
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  width: 15%;
+  line-height: 22px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 20;
+  margin-top: 87vh;
+  margin-left:82%;
+}
+
+.button a:link{
+  color:#3fd970;
+  text-decoration: none;
+}
+
+.button a:visited{
+  color:#3fd970
+}
+
+.button a:hover{
+  font-style: italic;
+}
+
+.parent2 {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 200px repeat(15, 100px);
+  grid-template-columns: 100px repeat(20, 100px);
+}
+
+.works {
+  max-width: 28%;
+  /* border: 2px solid blue; */
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: 350px;
+  margin-top: 40px;
+  width: 50%;
+  position: absolute;
+}
+
+.works p {
+  margin-top: 5px;
+  margin-bottom: 60px;
+}
+
+.works img {
+  max-width: 120%;
+}
+
+.works a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.works a:visited {
+  color: black;
+}
+
+.works a:hover {
+  color: #3fd970;
+  font-style: normal;
+}
+
+/* each individual project page */
+.content {
+  max-width: 28%;
+  /* border: 2px solid blue; */
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: 350px;
+  margin-top: 40px;
+  width: 50%;
+  position: absolute;
+}
+
+.content img {
+  max-width: 120%;
+  margin-bottom: 50px;
+}
+
+.content video {
+  max-width: 120%;
+  margin-bottom: 50px;
+}
+
+/* hidden page */
+
+.hiddenvideo{
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: 350px;
+  margin-top: 40px;
+  width: 50%;
+  position: absolute;
+  max-width: 40%;
+}
+
+.hiddenvideo video{
+  max-width: 120%;
+}
+
+.hiddenvideo p{
+  text-align: justify;
+  margin-top: 40px;
+}
+
+
+.content p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.content p.description {
+  text-align: justify;
+  margin-top: 0px;
+  margin-bottom: -30px;
+}
+
+.content p.description2{
+  text-align: justify;
+  margin-top: 0px;
+  margin-bottom: -60px;
+}
+
+.content p.smaller {
+  margin-top: -20px;
+  margin-left: 50px;
+}
+
+.content img.nudge {
+  margin-right: 20px;
+}
+
+.content h6 {
+  margin-top: -40px;
+  margin-bottom: 40px;
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.exp {
+  max-width: 28%;
+  /* border: 2px solid blue; */
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: 350px;
+  margin-top: 40px;
+  width: 50%;
+  position: absolute;
+}
+
+.exp p {
+  margin-top: 5px;
+  margin-bottom: 60px;
+}
+
+.exp img {
+  max-width: 100%;
+}
+
+.exp a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.exp a:visited {
+  color: black;
+}
+
+.exp a:hover {
+  color: #3fd970;
+  font-style: normal;
+}
